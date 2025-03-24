@@ -1,7 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Register.css'
 
 function Register(){
+    const navigate= useNavigate();
+    const handleRegister = ()=> {
+        navigate("/login");
+    };
 
     return(
         <div className="register-page">
@@ -15,7 +19,7 @@ function Register(){
                     <input className="register-input" type="Email" placeholder="Email"/>
                     <input className="register-input" type="Password" placeholder="Password"/>
                     <input className="register-input" type="No HP" placeholder="No HP"/>
-                    <button className="register-button">Daftar</button>
+                    <button onClick={handleRegister} className="register-button">Daftar</button>
                     <div className="cta-to-login">
                         <p>Sudah punya akun?</p>
                         <Link to="/login" className="link-login">Login di sini</Link>

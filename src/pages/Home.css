@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAFBFD;
+    margin: 0;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.subtitle{
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.welcome{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbold{
+    font-weight: 700;
+    font-size: 16px;
+   
+}
+
+.text{
+    font-weight: 200;
+    font-size: 16px;
+    
+}
+
+.account{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 0;
+    padding-right: 15px;
+}
+
+.photo{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border: 5px solid #0061FF;
+}
+
+.dashboard{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accountNo{
+    width: 273px;
+    height: 216px;
+    border-radius: 20px;
+    background-color: #0061FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.dash-title{
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.dash-body{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.balance{
+    width:1020px;
+    height: 216px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.balance-num{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.balance-amount{
+    display: flex;
+    flex-direction: row;
+}
+
+.balance-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.view-icon{
+    margin-left: 70px;
+}
+
+.dash-title-black{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.dash-body-black{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.balance-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.share-icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #0061FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.share-icon:hover{
+    box-shadow: 0 8px 16px 0 #0061FF, 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.share{
+    width: 32.564292907714844px;
+    height: 34.794864654541016px;
+}
+
+.plus-icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #0061FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.plus-icon:hover{
+    box-shadow: 0 8px 16px 0 #0061FF, 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.plus{
+    width: 32.564292907714844px;
+    height: 34.794864654541016px;
+}
