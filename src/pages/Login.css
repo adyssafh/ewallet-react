@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left-side {
+    width: 50vw; /* Setengah layar */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Opsional: buat background putih */
+}
+
+.right-side {
+    width: 50vw; /* Setengah layar */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page{
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-family: "Open Sans";
+    height: 100vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.splashscreen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+}
+
+.login-input{
+    width: 411px;
+    height: 60px;
+    background-color: #FAFBFD;
+    border-radius: 10px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.login-button{
+    width: 411px;
+    height: 60px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    background-color: #0061FF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.login-button:hover {
+    background-color: #004ecc;
+    box-shadow: 0px 6px 15px rgba(0, 97, 255, 0.5); /* Increase shadow on hover */
+}
+
+.logo{
+    width: 291px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-bottom: 50px;
+}
+
+.cta-to-register{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.link-register{
+    margin-left: 10px;
+}
